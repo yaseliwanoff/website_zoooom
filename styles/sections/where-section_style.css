@@ -1,0 +1,108 @@
+.where {
+    padding-bottom: 160px;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: auto;
+    background-color: var(--background-color-white);
+}
+
+.where h2 {
+    display: flex;
+    justify-content: center;
+    padding-block: 74px;
+    font-size: 120px;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-family: var(--font-name-title);
+}
+
+.where h2 .accent {
+    color: var(--text-color-orange);
+}
+
+.where-blocks {
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    z-index: 10;
+}
+
+.where-block-right {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.where-block-right h3 {
+    font-family: var(--font-name-title);
+    font-weight: 400;
+    text-transform: uppercase;
+    color: var(--text-color-purple);
+    font-size: 70px;
+    padding-bottom: 20px;
+}
+
+.where-block-right p {
+    font-family: var(--font-name-title);
+    font-weight: 300;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 30px;
+    width: 500px;
+    padding-bottom: 60px;
+}
+
+.where-block-right .btn-order {
+    padding: var(--padding-button-default);
+    border: 4px solid var(--border-color-black);
+    border-radius: var(--border-radius-low);
+    font-weight: 700;
+    letter-spacing: -1.2px;
+    background-color: var(--background-color-green);
+    transition: var(--transition);
+}
+
+.where-block-right .btn-order:hover {
+    background-color: var(--background-color-orange);
+}
+
+.where-block-left {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.where-block-left h3 {
+    font-family: var(--font-name-title);
+    font-weight: 400;
+    text-transform: uppercase;
+    color: var(--text-color-purple);
+    font-size: 70px;
+    padding-bottom: 20px;
+}
+
+.where-block-left p {
+    font-family: var(--font-name-title);
+    font-weight: 300;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 30px;
+    width: 500px;
+    padding-bottom: 25px;
+}
+
+.map iframe {
+    position: relative;
+    z-index: 10;
+    border-radius: var(--border-radius-default);
+}
+
+.background-images .pattern-orange-1 {
+    position: absolute;
+    width: 400px;
+    bottom: 0;
+    right: 0;
+}
