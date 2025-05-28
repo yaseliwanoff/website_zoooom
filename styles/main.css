@@ -1,0 +1,70 @@
+@import url("./devices.css");
+@import url("./fonts.css");
+@import url("./layout.css");
+@import url("./reset.css");
+
+@import url("../styles/sections/header-section_style.css");
+@import url("../styles/sections/hero-section_style.css");
+@import url("../styles/sections/about-section_style.css");
+@import url("../styles/sections/works-section_style.css");
+@import url("../styles/sections/popular-section_style.css");
+@import url("../styles/sections/people-section_style.css");
+@import url("../styles/sections/where-section_style.css");
+@import url("../styles/sections/answer-section_style.css");
+@import url("../styles/sections/footer-section_style.css");
+
+:root {
+    --text-color-white: #FFFFFF;
+    --text-color-black: #211509;
+    --text-color-green: #E1F532;
+    --text-color-orange: #FF6316;
+    --text-color-purple: #5541BA;
+
+    --background-color-pink: #FFADE6;
+    --background-color-purple: #5541BA;
+    --background-color-orange: #FF6316;
+    --background-color-white: #F6EDE4;
+    --background-color-green: #E1F532;
+
+    --border-color-black: #211509;
+
+    --font-name-title: "Londrina";
+    --font-name-text: "Inter";
+
+    --desktop-text-size-h1: 90px;
+    --desktop-text-size-h2: 70px;
+    --desktop-text-size-h3: 120px;
+    --desktop-text-description-default: 30px;
+    --desktop-text-description-low: 20px;
+    --desktop-text-button: 30px;
+    --description-text-sub: 18px;
+
+    --tablet-text-size-h1: 60px;
+    --tablet-text-size-h2: 50px;
+    --tablet-text-size-h3: 80px;
+    --tablet-text-description-default: 22px;
+    --tablet-text-description-low: 16px;
+    --tablet-text-button: 16px;
+    --tablet-description-text-sub: 14px;
+
+    --phone-text-size-h1: 40px;
+    --phone-text-size-h2: 32px;
+    --phone-text-size-h3: 50px;
+    --phone-text-description-default: 16px;
+    --phone-text-description-low: 12px;
+    --phone-text-button: 14px;
+    --phone-description-text-sub: 12px;
+
+    --transition: 0.3s linear;
+
+    --padding-button-default: 16px 30px;
+
+    --breakpoint-mobile: 414px;
+    --breakpoint-table: 1024px;
+    --breakpoint-desktop: 1310px;
+    --padding-container: 10px;
+
+    --border-radius-large: 999px;
+    --border-radius-default: 30px;
+    --border-radius-low: 12px;
+}

@@ -1,0 +1,90 @@
+@font-face {
+    font-family: "Inter";
+    src:
+        url("../assets/fonts/inter/ttf/Inter_18pt-Regular.ttf") format("truetype"),
+        url("../assets/fonts/inter/woff/Inter_18pt-Regular.woff") format("woff"),
+        url("../assets/fonts/inter/woff2/Inter_18pt-Regular.woff2") format("woff2");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Inter";
+    src:
+        url("../assets/fonts/inter/ttf/Inter_18pt-Medium.ttf") format("truetype"),
+        url("../assets/fonts/inter/woff/Inter_18pt-Medium.woff") format("woff"),
+        url("../assets/fonts/inter/woff2/Inter_18pt-Medium.woff2") format("woff2");
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Inter";
+    src:
+        url("../assets/fonts/inter/ttf/Inter_18pt-SemiBold.ttf") format("truetype"),
+        url("../assets/fonts/inter/woff/Inter_18pt-SemiBold.woff") format("woff"),
+        url("../assets/fonts/inter/woff2/Inter_18pt-SemiBold.woff2") format("woff2");
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Inter";
+    src:
+        url("../assets/fonts/inter/ttf/Inter_18pt-Bold.ttf") format("truetype"),
+        url("../assets/fonts/inter/woff/Inter_18pt-Bold.woff") format("woff"),
+        url("../assets/fonts/inter/woff2/Inter_18pt-Bold.woff2") format("woff2");
+    font-weight: 700;
+    font-style: bold;
+}
+
+@font-face {
+    font-family: "Inter";
+    src:
+        url("../assets/fonts/inter/ttf/Inter_18pt-Black.ttf") format("truetype"),
+        url("../assets/fonts/inter/woff/Inter_18pt-Black.woff") format("woff"),
+        url("../assets/fonts/inter/woff2/Inter_18pt-Black.woff2") format("woff2");
+    font-weight: 800;
+    font-style: bold;
+}
+
+@font-face {
+    font-family: "Londrina";
+    src:
+        url("../assets/fonts/londrina/ttf/LondrinaSolid-Thin.ttf") format("truetype"),
+        url("../assets/fonts/londrina/woff/LondrinaSolid-Thin.woff") format("woff"),
+        url("../assets/fonts/londrina/woff2/LondrinaSolid-Thin.woff2") format("woff2");
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Londrina";
+    src:
+        url("../assets/fonts/londrina/ttf/LondrinaSolid-Light.ttf") format("truetype"),
+        url("../assets/fonts/londrina/woff/LondrinaSolid-Light.woff") format("woff"),
+        url("../assets/fonts/londrina/woff2/LondrinaSolid-Light.woff2") format("woff2");
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Londrina";
+    src:
+        url("../assets/fonts/londrina/ttf/LondrinaSolid-Regular.ttf") format("truetype"),
+        url("../assets/fonts/londrina/woff/LondrinaSolid-Regular.woff") format("woff"),
+        url("../assets/fonts/londrina/woff2/LondrinaSolid-Regular.woff2") format("woff2");
+    font-weight: 400;
+    font-style: normal;
+    text-transform: uppercase;
+}
+
+@font-face {
+    font-family: "Londrina";
+    src:
+        url("../assets/fonts/londrina/ttf/LondrinaSolid-Black.ttf") format("truetype"),
+        url("../assets/fonts/londrina/woff/LondrinaSolid-Black.woff") format("woff"),
+        url("../assets/fonts/londrina/woff2/LondrinaSolid-Black.woff2") format("woff2");
+    font-weight: 700;
+    font-style: bold;
+}

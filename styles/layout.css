@@ -1,0 +1,16 @@
+.container {
+    padding: var(--padding-container);
+    margin: 0 auto;
+    max-width: var(--breakpoint-desktop);
+    width: 100%;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+body {
+    background-color: var(--background-color-white);
+    color: var(--text-color-black);
+    font-family: var(--font-name-text);
+    font-weight: 400;
+    font-size: var(--desktop-text-description-default);
+}
